@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  --background: #1D2025;
+  --dark: #1F2933;
+  --gray: #434C55;
+  --light: #E8E9EA;
+  --secondary: #1DDECB;
+  --primary: #19B6A7;
+  --text: 'Ubuntu Condensed', sans-serif;
+  --title: 'Righteous', cursive;
+}
+
+body {
+  font-family: var(--text);
+  color: var(--light);
+  background: var(--background);
+}
+
+.title {
+  font-family: var(--title);
+}
+
+.secondary {
+  color: var(--secondary);
+}
